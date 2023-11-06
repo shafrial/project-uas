@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    width: 1440px;
+    background-color: blue;
+    color: white;
+}
+
+.judul {
+    margin-left: 30px;
+    margin-top: 30px;
+}
