@@ -18,6 +18,7 @@ kotajatim.forEach(item => {
 
     item.addEventListener('mouseout', function() {
         // Sembunyikan gambar ketika kursor tidak lagi di atas daftar kota
-        logo.style.display = 'none';
+        logo.src = '1698753199545.png';
+        logo.style.display = 'block';
     });
 });
