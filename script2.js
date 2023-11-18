@@ -6,11 +6,11 @@ kotajatim.forEach(item => {
         const city = this.getAttribute('data-city');
         // Ganti src gambar sesuai dengan kota yang di-hover
         if (city === 'Yogyakarta') {
-            logo.src = 'surabaya.jpg';
+            logo.src = 'yogyakarta.jpg';
         } else if (city === 'Semarang') {
-            logo.src = 'malang.jpg';
+            logo.src = 'semarang.jpg';
         } else if (city === 'Solo') {
-            logo.src = 'kediri.jpg';
+            logo.src = 'solo.jpg';
         } 
         // Tampilkan gambar
         logo.style.display = 'block';
