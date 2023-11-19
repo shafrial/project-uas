@@ -7,21 +7,20 @@ body {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    height: 100px;
-    background-color: burlywood;
-    color: white;
-    padding: 0 20px;
+    height: 90px;
+    background-color: #CB997E;
+    color: #000000;
 }
 
 .left-content {
     display: flex;
     align-items: center;
+    margin-left: 25px;
 }
 .left-content img{
-    width: 75px;
-    height: 75px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
-    margin-right: 10px;
 }
 .brand {
     font-family: Arial, Helvetica, sans-serif;
@@ -34,7 +33,7 @@ body {
 
 .menu li {
     list-style: none;
-    margin-right: 25px;
+    margin-right: 100px;
     position: relative;
 }
 
@@ -46,35 +45,40 @@ body {
     transition: all 0.7s ease;
     opacity: 0;
     visibility: hidden;
+    height: 125px;
+    width: 100px;
 }
 
 .menu li:hover > ul {
     display: block;
     opacity: 1;
     visibility: visible;
+    overflow: auto;
 }
 
 .menu  li .nav a{
-    color: white;
+    color: #000000;
     text-decoration: none;
-    transition: color 0.3s;
+    transition: color 0.3s, ;
 }
 
 .menu  li .nav a:hover {
-    color: blue;
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 .menu li ul li a {
     color: black; /* Ganti warna sesuai keinginan Anda */
     transition: color 0.3s;
     display: block;
+    text-decoration: none;
     padding: 10px;
     
 }
 
 section {
     width: 100%;
-    height: 450px;
+    height: 550px;
     margin-top: 3%;
     background-color: #f4f4f4;
     display: flex;
@@ -87,6 +91,7 @@ ol li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
     list-style: none;
+    line-height: 1.3em;
 }
 
 ol li a{
@@ -95,21 +100,21 @@ ol li a{
 }
 section .kota-dan-logo {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .kota {
-    width: 50%;
-    padding: 20px;
+    width: 35%;
 }
 
 .logo {
-    width: 50%;
+    width: 65%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .logo img {
-    max-width: 80%; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    max-width: 70%; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    max-height: 80%;
     display: none;
 }
