@@ -66,14 +66,10 @@ body {
 
 .menu li ul li a {
     color: black; /* Ganti warna sesuai keinginan Anda */
-    text-decoration: none; /* Nonaktifkan underline */
-    transition: color 0.3s, background-color 0.3s;
+    transition: color 0.3s;
     display: block;
     padding: 10px;
-}
-.menu li ul li a :hover{
-    text-decoration: none; /* Nonaktifkan underline */
-    background-color: lightgray;
+    
 }
 
 section {

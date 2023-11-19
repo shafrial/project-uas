@@ -1,16 +1,16 @@
 const logo = document.querySelector('.logo img');
-const kotajatim = document.querySelectorAll('.kotajatim li');
+const kotajatim = document.querySelectorAll('.kotajateng li');
 
 kotajatim.forEach(item => {
     item.addEventListener('mouseover', function() {
         const city = this.getAttribute('data-city');
         // Ganti src gambar sesuai dengan kota yang di-hover
         if (city === 'Yogyakarta') {
-            logo.src = 'yogyakarta.jpg';
+            logo.src = 'assets/yogyakarta.jpg';
         } else if (city === 'Semarang') {
-            logo.src = 'semarang.jpg';
+            logo.src = 'assets/semarang.jpg';
         } else if (city === 'Solo') {
-            logo.src = 'solo.jpg';
+            logo.src = 'assets/solo.jpg';
         } 
         // Tampilkan gambar
         logo.style.display = 'block';
