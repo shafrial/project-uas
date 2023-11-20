@@ -1,14 +1,16 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: url(bg.jpeg);
+    background-size: cover;
+    background-position: center;
 }
-
-.container {
+.header {
     display: flex;
     justify-content:space-between;
     align-items: center;
     height: 90px;
-    background-color: #CB997E;
+    background-color: #755341;
     color: #FFE8D6;
 }
 
@@ -25,6 +27,7 @@ body {
 .brand {
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 10px;
+    font-weight: bold;
 }
  .menu {
     display:flex;
@@ -35,6 +38,8 @@ body {
     list-style: none;
     margin-right: 100px;
     position: relative;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .menu ul {
@@ -57,12 +62,11 @@ body {
 .menu  li .nav a{
     color: #FFE8D6;
     text-decoration: none;
-    transition: color 0.3s, ;
+    transition: color 0.3s;
 }
 
 .menu  li .nav a:hover {
     color: #000000;
-    text-decoration: underline;
 }
 
 .menu li ul li a {
@@ -77,27 +81,28 @@ body {
 section {
     width: 100%;
     height: 500px;
-    margin-top: 3%;
+    margin-top: 6%;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 ol li {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
+    font-size: 25px;
     list-style: none;
-    line-height: 1.3em;
+    line-height: 1.5em;
     transition:background-color 0.3s;
 }
 
 ol li :hover {
-    text-decoration: underline;
+    font-size: 30px;
+    
 }
 
 ol li a{
     text-decoration: none;
-    color: black;
+    color: #FFE8D6;
+    margin-left: 35px;
 }
 section .kota-dan-logo {
     display: flex;
@@ -105,11 +110,12 @@ section .kota-dan-logo {
 }
 .kota {
     width: 35%;
-    height: 500px;
-    background-color: #f4f4f4;
+    height: 480px;
+    background-color: #9e7b68;
     display: flex;
     align-items: center;
-    justify-content: left;
+    border-radius: 20px;
+    margin-left: 150px;
 }
 
 .logo {
@@ -121,6 +127,9 @@ section .kota-dan-logo {
 
 .logo img {
     max-width: 70%; /* Sesuaikan ukuran gambar sesuai kebutuhan */
-    max-height: 80%;
+    max-height: 500px;
     display: none;
+    border-radius: 20px;
+    border: 1px black;
+    margin-left: 50px;
 }

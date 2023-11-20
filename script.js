@@ -22,17 +22,17 @@ kotajatim.forEach(item => {
         } else if (city === 'Blitar') {
             logo.src = 'assets/blitar.jpg';
         } else if (city === 'Sidoarjo') {
-            logo.src = 'assets/sidoarjo.jpg';
+            logo.src = 'assets/sidoarjo1.jpg';
         } else if (city === 'Surabaya') {
             logo.src = 'assets/surabaya.jpg';
         }
         // Tampilkan gambar
-        logo.style.display = 'block';
+        logo.style.display = 'flex';
     });
 
     item.addEventListener('mouseout', function() {
         // Sembunyikan gambar ketika kursor tidak lagi di atas daftar kota
-        logo.src = '1698753199545.png';
-        logo.style.display = 'block';
+        logo.src = 'assets/jateng.jpeg';
+        logo.style.display = 'flex';
     });
 });
