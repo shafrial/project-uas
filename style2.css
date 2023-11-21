@@ -1,31 +1,33 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: url(bg.jpeg);
+    background-size: cover;
+    background-position: center;
 }
-
-.container {
+.header {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    height: 100px;
-    background-color: #CB997E;
-    color: white;
-    padding: 0 20px;
+    height: 90px;
+    background-color: #755341;
+    color: #FFE8D6;
 }
 
 .left-content {
     display: flex;
     align-items: center;
+    margin-left: 25px;
 }
 .left-content img{
-    width: 75px;
-    height: 75px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
-    margin-right: 10px;
 }
 .brand {
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 10px;
+    font-weight: bold;
 }
  .menu {
     display:flex;
@@ -34,8 +36,10 @@ body {
 
 .menu li {
     list-style: none;
-    margin-right: 25px;
+    margin-right: 100px;
     position: relative;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .menu ul {
@@ -46,6 +50,7 @@ body {
     transition: all 0.7s ease;
     opacity: 0;
     visibility: hidden;
+    max-width: 110px;
 }
 
 .menu li:hover > ul {
@@ -55,62 +60,76 @@ body {
 }
 
 .menu  li .nav a{
-    color: white;
+    color: #FFE8D6;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .menu  li .nav a:hover {
-    color: blue;
+    color: #000000;
 }
 
 .menu li ul li a {
     color: black; /* Ganti warna sesuai keinginan Anda */
-    text-decoration: none;
     transition: color 0.3s;
     display: block;
+    text-decoration: none;
     padding: 10px;
     
 }
 
 section {
     width: 100%;
-    height: 450px;
-    margin-top: 3%;
-    background-color: #f4f4f4;
+    height: 500px;
+    margin-top: 5%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    border-radius: 8px;
 }
 
 ol li {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
+    font-size: 25px;
     list-style: none;
+    line-height: 1.5em;
+    transition:background-color 0.3s;
+}
+
+ol li :hover {
+    font-size: 30px;
+    
 }
 
 ol li a{
     text-decoration: none;
-    color: black;
+    color: #FFE8D6;
+    margin-left: 35px;
 }
 section .kota-dan-logo {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .kota {
-    width: 50%;
-    padding: 20px;
+    width: 35%;
+    height: 480px;
+    background-color: #9e7b68;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 150px;
 }
 
 .logo {
-    width: 50%;
+    width: 65%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .logo img {
-    max-width: 80%; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    max-width: 70%; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    max-height: 500px;
     display: none;
+    border-radius: 20px;
+    margin-left: 50px;
 }

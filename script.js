@@ -32,7 +32,7 @@ kotajatim.forEach(item => {
 
     item.addEventListener('mouseout', function() {
         // Sembunyikan gambar ketika kursor tidak lagi di atas daftar kota
-        logo.src = 'assets/jateng.jpeg';
+        logo.src = 'assets/jatim.jpeg';
         logo.style.display = 'flex';
     });
 });
