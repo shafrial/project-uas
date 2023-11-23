@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(bg.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 90px;
+    background-color: #755341;
+    color: #FFE8D6;
+}
+
+.left-content {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+.left-content img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.brand {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    font-weight: bold;
+}
+ .menu {
+    display:flex;
+    margin-right: 15px;
+}
+
+.menu li {
+    list-style: none;
+    margin-right: 100px;
+    position: relative;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu ul {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    padding: 10px;
+    transition: all 0.7s ease;
+    opacity: 0;
+    visibility: hidden;
+    max-width: 110px;
+}
+
+.menu li:hover > ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu  li .nav a{
+    color: #FFE8D6;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.menu  li .nav a:hover {
+    color: #000000;
+}
+
+.menu li ul li a {
+    color: black; /* Ganti warna sesuai keinginan Anda */
+    transition: color 0.3s;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+section {
+    width: 100%;
+    height: 500px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+ol li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    list-style: none;
+    line-height: 1.5em;
+    transition:background-color 0.3s;
+}
+
+ol li :hover {
+    font-size: 30px;
+    
+}
+
+ol li a{
+    text-decoration: none;
+    color: #FFE8D6;
+    margin-left: 35px;
+}
+section .kota-dan-logo {
+    display: flex;
+    justify-content: center;
+}
+.kota {
+    width: 35%;
+    height: 480px;
+    background-color: #9e7b68;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.logo {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 70%; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    max-height: 500px;
+    display: none;
+    border-radius: 20px;
+    margin-left: 50px;
+}
