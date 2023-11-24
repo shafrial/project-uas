@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CultureWir</title>
+  <link rel="stylesheet" href="homepage.css" />
+</head>
+
+<body>
+  <header>
+    <div class="judul">
+      <img src="logo.png" alt="CultureWir Logo" />
+      <h1 class="nama-web">CultureWir</h1>
+    </div>
+
+    <div class="navbar">
+      <a class="abtus" href="index.html">Kesenian</a>
+
+      <div class="dropdown">
+        <button class="dropbtn">About Us!</button>
+        <div class="dropdown-content">
+          <a href="sasa.html">Shalsabilla</a>
+          <a href="aril.html">Shafrial Aziz</a>
+          <a href="izza.html">Renaldy Izza</a>
+        </div>
+      </div>
+
+      <a class="kontakkami" href="mailto:shalsa.thirtymay@gmail.com?subject=Judul%20Pesan&amp;body=Halo%0A%0ATerima%20kasih%20sudah%20menghubungi%20kami.%20Bagaimana%20dapat%20kami%20membantu%20mengenai%20website%20'CultureWir'%3F%0A%0ATerima%20kasih%2C%20Shalsabilla">Contact Us!</a>
+
+      <a class="abtus" href="https://www.example.com">Help?</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="gambar-samping">
+      <img src="sampingan.png" alt="Your Image" class="gambar-samping" />
+    </div>
+
+    <div class="tulisansamping">
+      <h1 class="judul-web">CultureWir</h1>
+    </div>
+
+    <p class="deskripsi">
+      <strong>CultureWir</strong> merupakan suatu platform daring yang secara
+      khusus menekankan eksplorasi dan apresiasi terhadap kekayaan seni serta
+      budaya yang mengalami perkembangan di pulau Jawa, terutama dengan fokus
+      pada wilayah Jawa Barat, Jawa Tengah, dan Jawa Timur.
+      <strong>CultureWir</strong> tidak hanya berperan sebagai penyedia
+      informasi, melainkan juga sebagai arsip digital yang mendokumentasikan
+      warisan seni dan budaya setiap daerah dengan cermat dan terperinci.
+      Dengan berlandaskan visi ini, <strong>CultureWir</strong>
+      berusaha untuk mendukung pemahaman yang lebih mendalam terhadap seni
+      tradisional dan kontemporer di Jawa Barat, Jawa Tengah, dan Jawa Timur.
+    </p>
+  </div>
+
+  <footer>
+    <h3>Mari bergabung dengan tim CultureWir!</h3>
+    <p>
+      Budaya tidak pernah berakhir, selalu ada yang baru. Selalu ada bentuk
+      kesenian yang baru, gerak tari, lagu, lukisan. Budaya adalah kisah tanpa
+      akhir.
+    </p>
+    <form id="emailForm">
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Masukkan email Anda"
+        required
+      />
+      <button type="button" onclick="sendEmail()">Submit</button>
+    </form>
+    <p id="successMessage" style="display:none;">Email berhasil terkirim!</p>
+  </footer>
+
+  <script>
+    function sendEmail() {
+      var emailInput = document.getElementById("email");
+      var email = emailInput.value;
+      var pesan_email = "Hai, saya berniat untuk bergabung dengan tim CultureWir. Saya siap mengabdi dan melestarikan budaya Indonesia.";
+
+      // You can add additional validation here if needed
+
+      // Use mailto to open the user's default email client
+      window.location.href = "mailto:shalsa.thirtymay@gmail.com?subject=Judul%20Pesan&body=" + encodeURIComponent(pesan_email);
+
+      // Display success message
+      document.getElementById("successMessage").style.display = "block";
+
+      // Clear the email input after successful submission
+      emailInput.value = "";
+
+      // Hide success message after a certain duration (e.g., 3 seconds)
+      setTimeout(function() {
+        document.getElementById("successMessage").style.display = "none";
+      }, 3000);
+    }
+  </script>
+</body>
+
+</html>

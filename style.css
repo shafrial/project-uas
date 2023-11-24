@@ -1,0 +1,266 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('begron.jpg') center/cover no-repeat;
+  position: relative;
+}
+
+.deskripsisitus {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+header {
+  height: 90px;
+  width: 100%;
+  background-color: #755341;
+  color: #FFE8D6;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  margin-left: 230px;
+  margin-top: 50px;
+}
+
+.judul {
+  margin-left: 20px;
+  font-family: Arial;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+img {
+  width: 90px;
+  height: 95px;
+  margin-right: 3px;
+}
+
+p {
+  color: black;
+}
+
+.bg {
+  width: 100%;
+  height: 500px;
+  margin-top: 3%;
+  background-color: #f4f4f4;
+  justify-content: center;
+  align-items: center;
+}
+
+.jabar {
+  margin-top: 50px;
+  height: 350px;
+  width: 290px;
+  background-color: #B08968;
+  color: #280004;
+  margin-left: 140px;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.jb{
+  text-align: center;
+  font-size: 19px;
+  margin-top: 10px;
+  font-family: arial;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #463325;
+}
+
+.jbr {
+  height: 180px;
+  width: 180px;
+  margin-top: 35px;
+  margin-left: 57px;
+}
+
+.descjbr {
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight:lighter;
+}
+
+.jateng {
+  margin-top: 50px;
+  height: 350px;
+  width: 290px;
+  background-color: #B08968;
+  color: #280004;
+  margin-left: 510px;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.jtg {
+  height: 180px;
+  width: 180px;
+  margin-top: 39px;
+  margin-left: 57px;
+}
+
+.jt {
+  text-align: center;
+  font-size: 19px;
+  margin-top: 10px;
+  font-family: arial;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #463325;
+}
+
+.descjtg {
+  text-align: center;
+  margin-left: 15.5px;
+  margin-right: 15.5px;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.jatim {
+  margin-top: 50px;
+  height: 350px;
+  width: 290px;
+  background-color: #B08968;
+  color: #280004;
+  margin-left: 870px;
+  border-radius: 20px;
+  position: absolute;
+  font-weight: bolder;
+}
+
+.jtm {
+  height: 180px;
+  width: 180px;
+  margin-top: 39px;
+  margin-left: 57px;
+}
+
+.jm {
+  text-align: center;
+  font-size: 19px;
+  margin-top: 10px;
+  font-family: arial;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #463325;
+}
+
+.descjtm {
+  text-align: center;
+  margin-left: 17px;
+  margin-right: 17px;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.abtus {
+  margin-left: 90px;
+  margin-right: 5px;
+  font-family: arial;
+  font-weight: bolder ;
+  color: #FFE8D6;
+  font-size: 16px;
+  text-decoration: none;
+  margin-top: 9px;
+}
+
+.kontakkami {
+  margin-left: 120px;
+  margin-right: 5px;
+  font-family: arial;
+  font-weight: bolder ;
+  color: #FFE8D6;
+  text-decoration: none;
+  margin-top: 9px;
+  font-size: 16.5px;
+}
+
+#myHeader {
+  color: aliceblue;
+  padding: 7px;
+  border-radius: 7px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.dropbtn {
+  height: 20px;
+  width: 125px;
+  background-color: #755341;
+  color: #FFE8D6;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom:30px;
+  margin-left: 0px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-left: 90px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #cbb9a8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #A87E69;
+}
+
+a {
+text-decoration: none;
+}
