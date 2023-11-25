@@ -27,12 +27,12 @@ kotajatim.forEach(item => {
             logo.src = 'assets/surabaya.jpg';
         }
         // Tampilkan gambar
-        logo.style.display = 'flex';
+        logo.style.display = 'block';
     });
 
     item.addEventListener('mouseout', function() {
         // Sembunyikan gambar ketika kursor tidak lagi di atas daftar kota
         logo.src = 'assets/jatim.jpeg';
-        logo.style.display = 'flex';
+        logo.style.display = 'block';
     });
 });
