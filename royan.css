@@ -18,8 +18,8 @@ body {
   display: block;
 }
 
-.navbar, .navbar-brand, .nav-link{
-  color: white;
+.navbar, .navbar-brand, .nav-link, .dropdown{
+  color:  #ffe8d6;
   text-decoration: none;
 }
 
