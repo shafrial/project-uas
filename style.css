@@ -1,8 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  background: url('begron.jpg') center/cover no-repeat;
-  position: relative;
+  background-image: url(bg.jpeg);
+  background-size: cover;
+  background-position: center;   
 }
 
 .deskripsisitus {
@@ -51,12 +52,13 @@ p {
 }
 
 .bg {
-  width: 100%;
+  width: 80%;
+  margin: auto;
   height: 500px;
   margin-top: 3%;
-  background-color: #f4f4f4;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
 }
 
 .jabar {
@@ -65,9 +67,7 @@ p {
   width: 290px;
   background-color: #B08968;
   color: #280004;
-  margin-left: 140px;
   border-radius: 20px;
-  position: absolute;
 }
 
 .jb{
@@ -102,9 +102,7 @@ p {
   width: 290px;
   background-color: #B08968;
   color: #280004;
-  margin-left: 510px;
   border-radius: 20px;
-  position: absolute;
 }
 
 .jtg {
@@ -139,9 +137,7 @@ p {
   width: 290px;
   background-color: #B08968;
   color: #280004;
-  margin-left: 870px;
   border-radius: 20px;
-  position: absolute;
   font-weight: bolder;
 }
 
