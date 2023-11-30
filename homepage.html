@@ -81,18 +81,14 @@
       var email = emailInput.value;
       var pesan_email = "Hai, saya berniat untuk bergabung dengan tim CultureWir. Saya siap mengabdi dan melestarikan budaya Indonesia.";
 
-      // You can add additional validation here if needed
 
-      // Use mailto to open the user's default email client
       window.location.href = "mailto:shalsa.thirtymay@gmail.com?subject=Judul%20Pesan&body=" + encodeURIComponent(pesan_email);
-
-      // Display success message
       document.getElementById("successMessage").style.display = "block";
 
-      // Clear the email input after successful submission
+    
       emailInput.value = "";
 
-      // Hide success message after a certain duration (e.g., 3 seconds)
+      
       setTimeout(function() {
         document.getElementById("successMessage").style.display = "none";
       }, 3000);
