@@ -32,7 +32,7 @@ kotajateng.forEach(item => {
 
     item.addEventListener('mouseout', function() {
         // Sembunyikan gambar ketika kursor tidak lagi di atas daftar kota
-        logo.src = 'assets/jateng.jpeg';
+        logo.src = 'jabar.jpeg';
         logo.style.display = 'block';
     });
 });
